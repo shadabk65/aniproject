@@ -1,0 +1,125 @@
+.sidenav {
+  height: 100%;
+  width: 137px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 7px 10px 8px 0.4px #ccc;
+}
+
+.sidenav  .internal a {
+  padding: 0px 0px 6px 0px;
+text-decoration: none;
+font-size: 13px;
+  color: #000;
+  display: block;
+}
+
+
+.sidenav h1 {
+font-size: 22px;
+  color: #000;
+  margin: 30px 0px 30px 19px;
+}
+
+
+
+
+.sidenav a:hover {
+  color: blue;
+}
+
+.internal{
+	text-align: center;
+}
+
+.internal i{
+	font-size: 27px;
+    color: #c0c0c0;
+    margin: 10px 0 10px 0;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 16px 16px;
+  background-color:#728FCE;
+  cursor: pointer;
+}
+
+
+
+.top{
+  background-color: #F2F2F2;
+  height: 550px;
+}
+
+.top-video{
+	padding-top: 35px;
+}
+
+.top-video i {
+	margin-right: 8px;
+}
+
+
+.left-content{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-top: 100px;
+}
+
+
+.left-content a{
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.top-div{
+  padding: 40px 0 40px 160px;
+}
+
+.top-1 #fname {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	padding: 8px 0 10px 17px;
+	width:100%;
+}
+
+.top-1 form{
+	width: 82%;
+}
+
+.top-2{
+	margin-left:360px;
+}
+.top-2 p{
+	font-size: 14px;
+	margin: 0;
+}
+
+.top-3 a{
+    color: #000;
+}
+
+.top-3{
+	text-decoration: none;
+border: 1px solid #fff;
+padding: 60px 5px 60px 36px;
+background-color: #fff;
+width: 9%;
+
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
